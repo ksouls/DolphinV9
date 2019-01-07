@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../Images/Rings/Ring_1.png">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
+   <FileRef
+      location = "group:../Images/Rings/Ring_2.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Images/Rings/Ring_3.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Images/Rings/Ring_4.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Images/Rings/Ring_5.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Images/Rings/Ring_6.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

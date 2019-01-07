@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9124E121E1187200DEB317 /* Background_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124D721E1187100DEB317 /* Background_5.png */; };
+		0D9124E221E1187200DEB317 /* Background_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124D821E1187100DEB317 /* Background_10.png */; };
+		0D9124E321E1187200DEB317 /* Background_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124D921E1187100DEB317 /* Background_7.png */; };
+		0D9124E421E1187200DEB317 /* Background_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124DA21E1187100DEB317 /* Background_9.png */; };
+		0D9124E521E1187200DEB317 /* Background_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124DB21E1187100DEB317 /* Background_1.png */; };
+		0D9124E621E1187200DEB317 /* Background_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124DC21E1187100DEB317 /* Background_8.png */; };
+		0D9124E721E1187200DEB317 /* Background_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124DD21E1187200DEB317 /* Background_6.png */; };
+		0D9124E821E1187200DEB317 /* Background_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124DE21E1187200DEB317 /* Background_2.png */; };
+		0D9124E921E1187200DEB317 /* Background_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124DF21E1187200DEB317 /* Background_3.png */; };
+		0D9124EA21E1187200DEB317 /* Background_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9124E021E1187200DEB317 /* Background_4.png */; };
+		0D91250621E11B3200DEB317 /* Ring_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D91250021E11B3100DEB317 /* Ring_2.png */; };
+		0D91250721E11B3200DEB317 /* Ring_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D91250121E11B3100DEB317 /* Ring_5.png */; };
+		0D91250821E11B3200DEB317 /* Ring_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D91250221E11B3100DEB317 /* Ring_1.png */; };
+		0D91250921E11B3200DEB317 /* Ring_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D91250321E11B3100DEB317 /* Ring_4.png */; };
+		0D91250A21E11B3200DEB317 /* Ring_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D91250421E11B3200DEB317 /* Ring_6.png */; };
+		0D91250B21E11B3200DEB317 /* Ring_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D91250521E11B3200DEB317 /* Ring_3.png */; };
+		8234CE5E21E3B2CA00B2318F /* gameOverScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8234CE5D21E3B2CA00B2318F /* gameOverScreen.storyboard */; };
+		824F7BE021C7CC5F0049838F /* Missile_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 824F7BDE21C7CC5F0049838F /* Missile_2.gif */; };
+		824F7BE121C7CC5F0049838F /* Missile_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 824F7BDF21C7CC5F0049838F /* Missile_3.gif */; };
+		82D4C7E121C3E6B30068CCBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4C7E021C3E6B30068CCBF /* AppDelegate.swift */; };
+		82D4C7E321C3E6B30068CCBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4C7E221C3E6B30068CCBF /* ViewController.swift */; };
+		82D4C7E621C3E6B30068CCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C7E421C3E6B30068CCBF /* Main.storyboard */; };
+		82D4C7E821C3E6B30068CCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C7E721C3E6B30068CCBF /* Assets.xcassets */; };
+		82D4C7EB21C3E6B30068CCBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C7E921C3E6B30068CCBF /* LaunchScreen.storyboard */; };
+		82D4C7F621C3E6B30068CCBF /* Dolphin_V5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4C7F521C3E6B30068CCBF /* Dolphin_V5Tests.swift */; };
+		82D4C80121C3E6B30068CCBF /* Dolphin_V5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4C80021C3E6B30068CCBF /* Dolphin_V5UITests.swift */; };
+		82D4C82221C3E8B40068CCBF /* Dolphin_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C81C21C3E8B40068CCBF /* Dolphin_1.gif */; };
+		82D4C82321C3E8B40068CCBF /* Dolphin_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C81D21C3E8B40068CCBF /* Dolphin_2.gif */; };
+		82D4C82421C3E8B40068CCBF /* Dolphin_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C81E21C3E8B40068CCBF /* Dolphin_3.gif */; };
+		82D4C82521C3E8B40068CCBF /* Dolphin_4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C81F21C3E8B40068CCBF /* Dolphin_4.gif */; };
+		82D4C82621C3E8B40068CCBF /* Dolphin_5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C82021C3E8B40068CCBF /* Dolphin_5.gif */; };
+		82D4C82721C3E8B40068CCBF /* Dolphin_6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82D4C82121C3E8B40068CCBF /* Dolphin_6.gif */; };
+		82D6FEE221C3F13A004191E2 /* drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6FEE121C3F13A004191E2 /* drag.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D4C7F221C3E6B30068CCBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D4C7D521C3E6B30068CCBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D4C7DC21C3E6B30068CCBF;
+			remoteInfo = Dolphin_V5;
+		};
+		82D4C7FD21C3E6B30068CCBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D4C7D521C3E6B30068CCBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D4C7DC21C3E6B30068CCBF;
+			remoteInfo = Dolphin_V5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9124D721E1187100DEB317 /* Background_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_5.png; sourceTree = "<group>"; };
+		0D9124D821E1187100DEB317 /* Background_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_10.png; sourceTree = "<group>"; };
+		0D9124D921E1187100DEB317 /* Background_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_7.png; sourceTree = "<group>"; };
+		0D9124DA21E1187100DEB317 /* Background_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_9.png; sourceTree = "<group>"; };
+		0D9124DB21E1187100DEB317 /* Background_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background_1.png; path = Images/Background/Background_1.png; sourceTree = "<group>"; };
+		0D9124DC21E1187100DEB317 /* Background_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_8.png; sourceTree = "<group>"; };
+		0D9124DD21E1187200DEB317 /* Background_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_6.png; sourceTree = "<group>"; };
+		0D9124DE21E1187200DEB317 /* Background_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_2.png; sourceTree = "<group>"; };
+		0D9124DF21E1187200DEB317 /* Background_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_3.png; sourceTree = "<group>"; };
+		0D9124E021E1187200DEB317 /* Background_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_4.png; sourceTree = "<group>"; };
+		0D91250021E11B3100DEB317 /* Ring_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ring_2.png; sourceTree = "<group>"; };
+		0D91250121E11B3100DEB317 /* Ring_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ring_5.png; sourceTree = "<group>"; };
+		0D91250221E11B3100DEB317 /* Ring_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ring_1.png; path = Images/Rings/Ring_1.png; sourceTree = "<group>"; };
+		0D91250321E11B3100DEB317 /* Ring_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ring_4.png; sourceTree = "<group>"; };
+		0D91250421E11B3200DEB317 /* Ring_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ring_6.png; sourceTree = "<group>"; };
+		0D91250521E11B3200DEB317 /* Ring_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ring_3.png; sourceTree = "<group>"; };
+		8234CE5D21E3B2CA00B2318F /* gameOverScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = gameOverScreen.storyboard; sourceTree = "<group>"; };
+		824F7BD521C7C3340049838F /* Dolphin_V5-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dolphin_V5-Bridging-Header.h"; sourceTree = "<group>"; };
+		824F7BDE21C7CC5F0049838F /* Missile_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Missile_2.gif; path = Images/Missile_2.gif; sourceTree = "<group>"; };
+		824F7BDF21C7CC5F0049838F /* Missile_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Missile_3.gif; path = ../Images/Missile_3.gif; sourceTree = "<group>"; };
+		82D4C7DD21C3E6B30068CCBF /* Dolphin_V5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dolphin_V5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D4C7E021C3E6B30068CCBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82D4C7E221C3E6B30068CCBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82D4C7E521C3E6B30068CCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82D4C7E721C3E6B30068CCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82D4C7EA21C3E6B30068CCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82D4C7EC21C3E6B30068CCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D4C7F121C3E6B30068CCBF /* Dolphin_V5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dolphin_V5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D4C7F521C3E6B30068CCBF /* Dolphin_V5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dolphin_V5Tests.swift; sourceTree = "<group>"; };
+		82D4C7F721C3E6B30068CCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D4C7FC21C3E6B30068CCBF /* Dolphin_V5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dolphin_V5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D4C80021C3E6B30068CCBF /* Dolphin_V5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dolphin_V5UITests.swift; sourceTree = "<group>"; };
+		82D4C80221C3E6B30068CCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D4C81C21C3E8B40068CCBF /* Dolphin_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Dolphin_1.gif; path = Dolphin/Dolphin_1.gif; sourceTree = "<group>"; };
+		82D4C81D21C3E8B40068CCBF /* Dolphin_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Dolphin_2.gif; sourceTree = "<group>"; };
+		82D4C81E21C3E8B40068CCBF /* Dolphin_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Dolphin_3.gif; sourceTree = "<group>"; };
+		82D4C81F21C3E8B40068CCBF /* Dolphin_4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Dolphin_4.gif; sourceTree = "<group>"; };
+		82D4C82021C3E8B40068CCBF /* Dolphin_5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Dolphin_5.gif; sourceTree = "<group>"; };
+		82D4C82121C3E8B40068CCBF /* Dolphin_6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Dolphin_6.gif; sourceTree = "<group>"; };
+		82D6FEE121C3F13A004191E2 /* drag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drag.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D4C7DA21C3E6B30068CCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4C7EE21C3E6B30068CCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4C7F921C3E6B30068CCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9124EB21E1189600DEB317 /* Dolphin */ = {
+			isa = PBXGroup;
+			children = (
+				82D4C81D21C3E8B40068CCBF /* Dolphin_2.gif */,
+				82D4C81E21C3E8B40068CCBF /* Dolphin_3.gif */,
+				82D4C81F21C3E8B40068CCBF /* Dolphin_4.gif */,
+				82D4C82021C3E8B40068CCBF /* Dolphin_5.gif */,
+				82D4C82121C3E8B40068CCBF /* Dolphin_6.gif */,
+			);
+			name = Dolphin;
+			sourceTree = "<group>";
+		};
+		0D9124EC21E1190A00DEB317 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				0D9124DE21E1187200DEB317 /* Background_2.png */,
+				0D9124DF21E1187200DEB317 /* Background_3.png */,
+				0D9124E021E1187200DEB317 /* Background_4.png */,
+				0D9124D721E1187100DEB317 /* Background_5.png */,
+				0D9124DD21E1187200DEB317 /* Background_6.png */,
+				0D9124D921E1187100DEB317 /* Background_7.png */,
+				0D9124DC21E1187100DEB317 /* Background_8.png */,
+				0D9124DA21E1187100DEB317 /* Background_9.png */,
+				0D9124D821E1187100DEB317 /* Background_10.png */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		0D91250D21E11B4900DEB317 /* Ring */ = {
+			isa = PBXGroup;
+			children = (
+				0D91250021E11B3100DEB317 /* Ring_2.png */,
+				0D91250521E11B3200DEB317 /* Ring_3.png */,
+				0D91250321E11B3100DEB317 /* Ring_4.png */,
+				0D91250121E11B3100DEB317 /* Ring_5.png */,
+				0D91250421E11B3200DEB317 /* Ring_6.png */,
+			);
+			path = Ring;
+			sourceTree = "<group>";
+		};
+		82D4C7D421C3E6B30068CCBF = {
+			isa = PBXGroup;
+			children = (
+				0D91250221E11B3100DEB317 /* Ring_1.png */,
+				0D9124DB21E1187100DEB317 /* Background_1.png */,
+				824F7BDE21C7CC5F0049838F /* Missile_2.gif */,
+				82D4C81C21C3E8B40068CCBF /* Dolphin_1.gif */,
+				82D4C7DF21C3E6B30068CCBF /* Dolphin_V5 */,
+				82D4C7F421C3E6B30068CCBF /* Dolphin_V5Tests */,
+				82D4C7FF21C3E6B30068CCBF /* Dolphin_V5UITests */,
+				82D4C7DE21C3E6B30068CCBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D4C7DE21C3E6B30068CCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D4C7DD21C3E6B30068CCBF /* Dolphin_V5.app */,
+				82D4C7F121C3E6B30068CCBF /* Dolphin_V5Tests.xctest */,
+				82D4C7FC21C3E6B30068CCBF /* Dolphin_V5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D4C7DF21C3E6B30068CCBF /* Dolphin_V5 */ = {
+			isa = PBXGroup;
+			children = (
+				0D91250D21E11B4900DEB317 /* Ring */,
+				0D9124EC21E1190A00DEB317 /* Background */,
+				0D9124EB21E1189600DEB317 /* Dolphin */,
+				824F7BDF21C7CC5F0049838F /* Missile_3.gif */,
+				82D4C7E021C3E6B30068CCBF /* AppDelegate.swift */,
+				82D4C7E221C3E6B30068CCBF /* ViewController.swift */,
+				8234CE5D21E3B2CA00B2318F /* gameOverScreen.storyboard */,
+				82D4C7E421C3E6B30068CCBF /* Main.storyboard */,
+				82D6FEE121C3F13A004191E2 /* drag.swift */,
+				82D4C7E721C3E6B30068CCBF /* Assets.xcassets */,
+				82D4C7E921C3E6B30068CCBF /* LaunchScreen.storyboard */,
+				82D4C7EC21C3E6B30068CCBF /* Info.plist */,
+				824F7BD521C7C3340049838F /* Dolphin_V5-Bridging-Header.h */,
+			);
+			path = Dolphin_V5;
+			sourceTree = "<group>";
+		};
+		82D4C7F421C3E6B30068CCBF /* Dolphin_V5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				82D4C7F521C3E6B30068CCBF /* Dolphin_V5Tests.swift */,
+				82D4C7F721C3E6B30068CCBF /* Info.plist */,
+			);
+			path = Dolphin_V5Tests;
+			sourceTree = "<group>";
+		};
+		82D4C7FF21C3E6B30068CCBF /* Dolphin_V5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				82D4C80021C3E6B30068CCBF /* Dolphin_V5UITests.swift */,
+				82D4C80221C3E6B30068CCBF /* Info.plist */,
+			);
+			path = Dolphin_V5UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D4C7DC21C3E6B30068CCBF /* Dolphin_V5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D4C80521C3E6B30068CCBF /* Build configuration list for PBXNativeTarget "Dolphin_V5" */;
+			buildPhases = (
+				82D4C7D921C3E6B30068CCBF /* Sources */,
+				82D4C7DA21C3E6B30068CCBF /* Frameworks */,
+				82D4C7DB21C3E6B30068CCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dolphin_V5;
+			productName = Dolphin_V5;
+			productReference = 82D4C7DD21C3E6B30068CCBF /* Dolphin_V5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82D4C7F021C3E6B30068CCBF /* Dolphin_V5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D4C80821C3E6B30068CCBF /* Build configuration list for PBXNativeTarget "Dolphin_V5Tests" */;
+			buildPhases = (
+				82D4C7ED21C3E6B30068CCBF /* Sources */,
+				82D4C7EE21C3E6B30068CCBF /* Frameworks */,
+				82D4C7EF21C3E6B30068CCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D4C7F321C3E6B30068CCBF /* PBXTargetDependency */,
+			);
+			name = Dolphin_V5Tests;
+			productName = Dolphin_V5Tests;
+			productReference = 82D4C7F121C3E6B30068CCBF /* Dolphin_V5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82D4C7FB21C3E6B30068CCBF /* Dolphin_V5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D4C80B21C3E6B30068CCBF /* Build configuration list for PBXNativeTarget "Dolphin_V5UITests" */;
+			buildPhases = (
+				82D4C7F821C3E6B30068CCBF /* Sources */,
+				82D4C7F921C3E6B30068CCBF /* Frameworks */,
+				82D4C7FA21C3E6B30068CCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D4C7FE21C3E6B30068CCBF /* PBXTargetDependency */,
+			);
+			name = Dolphin_V5UITests;
+			productName = Dolphin_V5UITests;
+			productReference = 82D4C7FC21C3E6B30068CCBF /* Dolphin_V5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D4C7D521C3E6B30068CCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CSStestuser;
+				TargetAttributes = {
+					82D4C7DC21C3E6B30068CCBF = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					82D4C7F021C3E6B30068CCBF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82D4C7DC21C3E6B30068CCBF;
+					};
+					82D4C7FB21C3E6B30068CCBF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 82D4C7DC21C3E6B30068CCBF;
+					};
+				};
+			};
+			buildConfigurationList = 82D4C7D821C3E6B30068CCBF /* Build configuration list for PBXProject "Dolphin_V5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82D4C7D421C3E6B30068CCBF;
+			productRefGroup = 82D4C7DE21C3E6B30068CCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D4C7DC21C3E6B30068CCBF /* Dolphin_V5 */,
+				82D4C7F021C3E6B30068CCBF /* Dolphin_V5Tests */,
+				82D4C7FB21C3E6B30068CCBF /* Dolphin_V5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D4C7DB21C3E6B30068CCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9124EA21E1187200DEB317 /* Background_4.png in Resources */,
+				0D9124E721E1187200DEB317 /* Background_6.png in Resources */,
+				8234CE5E21E3B2CA00B2318F /* gameOverScreen.storyboard in Resources */,
+				0D9124E621E1187200DEB317 /* Background_8.png in Resources */,
+				0D91250721E11B3200DEB317 /* Ring_5.png in Resources */,
+				0D91250A21E11B3200DEB317 /* Ring_6.png in Resources */,
+				82D4C82521C3E8B40068CCBF /* Dolphin_4.gif in Resources */,
+				824F7BE121C7CC5F0049838F /* Missile_3.gif in Resources */,
+				0D91250B21E11B3200DEB317 /* Ring_3.png in Resources */,
+				82D4C7EB21C3E6B30068CCBF /* LaunchScreen.storyboard in Resources */,
+				0D9124E521E1187200DEB317 /* Background_1.png in Resources */,
+				0D9124E421E1187200DEB317 /* Background_9.png in Resources */,
+				0D9124E321E1187200DEB317 /* Background_7.png in Resources */,
+				0D9124E121E1187200DEB317 /* Background_5.png in Resources */,
+				0D9124E221E1187200DEB317 /* Background_10.png in Resources */,
+				82D4C82721C3E8B40068CCBF /* Dolphin_6.gif in Resources */,
+				824F7BE021C7CC5F0049838F /* Missile_2.gif in Resources */,
+				82D4C7E821C3E6B30068CCBF /* Assets.xcassets in Resources */,
+				0D9124E921E1187200DEB317 /* Background_3.png in Resources */,
+				82D4C82621C3E8B40068CCBF /* Dolphin_5.gif in Resources */,
+				0D91250921E11B3200DEB317 /* Ring_4.png in Resources */,
+				82D4C82321C3E8B40068CCBF /* Dolphin_2.gif in Resources */,
+				82D4C82421C3E8B40068CCBF /* Dolphin_3.gif in Resources */,
+				0D91250621E11B3200DEB317 /* Ring_2.png in Resources */,
+				0D9124E821E1187200DEB317 /* Background_2.png in Resources */,
+				0D91250821E11B3200DEB317 /* Ring_1.png in Resources */,
+				82D4C7E621C3E6B30068CCBF /* Main.storyboard in Resources */,
+				82D4C82221C3E8B40068CCBF /* Dolphin_1.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4C7EF21C3E6B30068CCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4C7FA21C3E6B30068CCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D4C7D921C3E6B30068CCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D6FEE221C3F13A004191E2 /* drag.swift in Sources */,
+				82D4C7E321C3E6B30068CCBF /* ViewController.swift in Sources */,
+				82D4C7E121C3E6B30068CCBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4C7ED21C3E6B30068CCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D4C7F621C3E6B30068CCBF /* Dolphin_V5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D4C7F821C3E6B30068CCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D4C80121C3E6B30068CCBF /* Dolphin_V5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D4C7F321C3E6B30068CCBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D4C7DC21C3E6B30068CCBF /* Dolphin_V5 */;
+			targetProxy = 82D4C7F221C3E6B30068CCBF /* PBXContainerItemProxy */;
+		};
+		82D4C7FE21C3E6B30068CCBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D4C7DC21C3E6B30068CCBF /* Dolphin_V5 */;
+			targetProxy = 82D4C7FD21C3E6B30068CCBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82D4C7E421C3E6B30068CCBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D4C7E521C3E6B30068CCBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82D4C7E921C3E6B30068CCBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D4C7EA21C3E6B30068CCBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82D4C80321C3E6B30068CCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82D4C80421C3E6B30068CCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D4C80621C3E6B30068CCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Dolphin_V5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-V5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dolphin_V5/Dolphin_V5-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		82D4C80721C3E6B30068CCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Dolphin_V5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-V5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dolphin_V5/Dolphin_V5-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		82D4C80921C3E6B30068CCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dolphin_V5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-V5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolphin_V5.app/Dolphin_V5";
+			};
+			name = Debug;
+		};
+		82D4C80A21C3E6B30068CCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dolphin_V5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-V5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolphin_V5.app/Dolphin_V5";
+			};
+			name = Release;
+		};
+		82D4C80C21C3E6B30068CCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Dolphin_V5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-V5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dolphin_V5;
+			};
+			name = Debug;
+		};
+		82D4C80D21C3E6B30068CCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Dolphin_V5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-V5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dolphin_V5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D4C7D821C3E6B30068CCBF /* Build configuration list for PBXProject "Dolphin_V5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4C80321C3E6B30068CCBF /* Debug */,
+				82D4C80421C3E6B30068CCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D4C80521C3E6B30068CCBF /* Build configuration list for PBXNativeTarget "Dolphin_V5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4C80621C3E6B30068CCBF /* Debug */,
+				82D4C80721C3E6B30068CCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D4C80821C3E6B30068CCBF /* Build configuration list for PBXNativeTarget "Dolphin_V5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4C80921C3E6B30068CCBF /* Debug */,
+				82D4C80A21C3E6B30068CCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D4C80B21C3E6B30068CCBF /* Build configuration list for PBXNativeTarget "Dolphin_V5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D4C80C21C3E6B30068CCBF /* Debug */,
+				82D4C80D21C3E6B30068CCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D4C7D521C3E6B30068CCBF /* Project object */;
+}
